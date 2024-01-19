@@ -9,8 +9,8 @@ function firstNonRepeatedChar(s) {
 			}
 		}
 		if(cnt===1){
-			r += s.charAt(i);
-			return r;
+			return s.charAt(i);
+			
 		}
 	}
 	return null;
